@@ -161,42 +161,42 @@ main figure {
   grid-row: 1 / 3;
 }
 
-#titel {
+.titel {
   display: flex;
   grid-column: 2;
   grid-row: 1;
 }
 
-#titel h2 {
+.titel h2 {
   background-color: #6e3f2c;
   color: white;
-  padding: 5px 50px 5px 50px;
+  padding: 10px 50px 10px 10px;
   font-weight: 700;
 }
 
-#beschrijving {
+.beschrijving {
   grid-column: 2;
   display: flex;
 }
 
-#beschrijving p {
+.beschrijving p {
   background-color: white;
   padding: 20px 50px 20px 50px;
 }
 
-#gridbox {
+.gridbox {
   display: grid;
   margin-bottom: 0px;
 }
 
-#played {
+.played {
   display: flex;
   justify-content: end;
   margin-top: 0px;
   grid-column: 2;
 }
 
-#played p {
+.played p {
   background-color: #6e3f2c;
   color: white;
   font-weight: 700;

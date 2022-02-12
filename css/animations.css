@@ -116,8 +116,9 @@ main {
 main figure {
   display: flex;
   flex-direction: column;
-
+  width: fit-content;
   border: #6e3f2c 15px solid;
+  align-self: center;
 }
 
 main figure figcaption {
@@ -154,13 +155,6 @@ footer a:hover {
 /* end of footer upmake */
 
 /* start of animation upmake */
-.first,
-.second,
-.third,
-.fourth,
-.fifth {
-  border-radius: 100px;
-}
 
 .first:hover,
 .second:hover,
