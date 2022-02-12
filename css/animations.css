@@ -85,6 +85,7 @@ main {
   gap: 10px;
   height: auto;
   width: 70%;
+  background-color: #6e3f2c;
 }
 
 /* end of main upmake */
@@ -117,7 +118,7 @@ main figure {
   display: flex;
   flex-direction: column;
   width: fit-content;
-  border: #6e3f2c 15px solid;
+  border: white 15px solid;
   align-self: center;
 }
 
@@ -216,6 +217,10 @@ footer a:hover {
   }
   100% {
   }
+}
+
+#quick {
+  align-self: center;
 }
 
 /* update ffs */
